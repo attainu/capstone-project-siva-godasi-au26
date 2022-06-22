@@ -13,7 +13,7 @@ const dbConnect = async()=>{
 
     }catch(err){
         console.log(`Error ${err.message}`);
-    }n
+    }
 }
 
 module.exports = dbConnect;
